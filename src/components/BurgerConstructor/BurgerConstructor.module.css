@@ -1,0 +1,56 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 912px;
+}
+
+.components {
+    justify-content: center;
+    height: 80px;
+    display: 'flex';
+    flex-direction: 'column';
+    gap: '10px'
+}
+
+.info {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    height: 33px;
+    width: 33px;
+}
+
+.counter {
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 36px;
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+.list {
+    list-style-type: none;
+    overflow-y: scroll;
+    height: 656px;
+
+}
+
+.roster {
+    display: flex;
+    align-items: center;
+}
